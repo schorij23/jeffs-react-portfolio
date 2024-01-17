@@ -1,0 +1,7 @@
+/* Tablet view */
+@media (min-width: 480px) {
+    .about-image {
+      width: 250px;
+      margin-bottom: 0;
+    }
+  }
