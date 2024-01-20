@@ -13,7 +13,7 @@ function App() {
     {/* <Navigation /> */}
     <main className='mx-3'>
     <Outlet />
-    <h1>test</h1>
+    <h1>body</h1>
     <Footer />
     </main>
     </>

@@ -36,7 +36,7 @@ const handleFormSubmit = (e) => {
     return (
         // <h1>Contact Page</h1>
         <div className="container text-center">
-        <h1>{name}</h1>
+        <h1>{name}</h1> 
         <form className="form" onSubmit={handleFormSubmit}>
           <input
             value={name}
