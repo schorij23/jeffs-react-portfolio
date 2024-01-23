@@ -1,0 +1,25 @@
+.container {
+    /* padding-top: 10%; */
+    color: white;
+}
+.form {
+    flex-direction: column;
+    display: flex;
+    padding-top: 25px;
+}
+
+.input-name {
+    background-color: blue;
+    color: white
+}
+
+.input-name::placeholder {
+    color: white
+}
+
+.contact-btn{
+    max-width: 10%;
+    /* width: 100%; */
+    box-sizing: border-box;
+    display: flex
+}

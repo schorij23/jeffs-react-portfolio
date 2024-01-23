@@ -6,7 +6,7 @@ function Header() {
 
     return (
         // <h1>this is the header</h1>
-        <nav className="navbar navbar-expand-lg bg-dark">
+        <nav className="navbar sticky-top navbar-expand-lg bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/"></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

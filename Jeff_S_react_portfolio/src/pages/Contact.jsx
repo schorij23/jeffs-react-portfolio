@@ -1,5 +1,8 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { validateEmail } from '../utils/helper';
+import './Contact.css';
+
+
 function Contact() {
 
     const [name, setName] = useState('');
@@ -33,19 +36,26 @@ const handleFormSubmit = (e) => {
     setEmail('');
 }
 
+// const handleNameBlur = (e) => {
+//   // You can perform actions when the "name" input field loses focus here
+//   console.log('Name input field lost focus');
+// }
+
     return (
         // <h1>Contact Page</h1>
-        <div className="container text-center">
-        <h1>{name}</h1> 
+        <div className="container">
+        {/* <h1>{name}</h1>  */}
+
         <form className="form" onSubmit={handleFormSubmit}>
-          <input
+          <input className='input-name mb-3'
             value={name}
             name="name"
             onChange={handleInputChange}
+            // onBlur={handleNameBlur}
             type="text"
             placeholder="name"
           />
-            <input
+            <input className='input-name mb-4'
             value={email}
             name="email"
             onChange={handleInputChange}
@@ -53,23 +63,30 @@ const handleFormSubmit = (e) => {
             placeholder="email"
           />
           {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
-          <input
+          <textarea className='input-name mb-5'
             value={message}
             name="message" 
             placeholder="message"
             onChange={handleInputChange}
             type="text"
+            style={{ height: '30vh' }}
             />
           {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
-          <button type="submit">
+          <button className="contact-btn" type="submit">
             Submit
           </button>
         </form>
+        
+       
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
+          
         )}
+        
+    
+
       </div>
     );
 }

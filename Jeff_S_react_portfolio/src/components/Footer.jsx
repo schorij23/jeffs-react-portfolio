@@ -4,7 +4,7 @@ import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'; // Import the
 
 function Footer() {
     return (
-        <footer className='footer'>
+        <footer className='fixed-bottom footer'>
             <div className='content links'>
                 <p>
                     <a href='https:/github.com/schorij23' target='icon-link'>
