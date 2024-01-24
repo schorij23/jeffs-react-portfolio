@@ -1,5 +1,6 @@
 import './App.css'
 import './index.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Outlet } from 'react-router-dom';
 // import Navigation from './components/Navigation';
 import Footer from './components/Footer'

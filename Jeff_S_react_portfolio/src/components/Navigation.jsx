@@ -1,17 +1,18 @@
 import { Link, useLocation } from 'react-router-dom';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Navigation() {
     const currentPage = useLocation().pathname;
 
     return (
         <ul className='nav nav-tabs'>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
                 <Link to="/"
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >
                 Home
                 </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
                 <Link to='/About'
                 className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}

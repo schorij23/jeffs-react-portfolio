@@ -6,7 +6,7 @@
 
 import React from "react";
 import myResume from "../../src/documents/practiceresume.pdf";
-import { BsFillCloudDownloadFill } from "react-icons/bs";
+import { BsCloudDownload } from "react-icons/bs";
 
 function Resume() {
   return (
@@ -19,7 +19,7 @@ function Resume() {
           <div className="download-info">
             <div className="download-text">
               <a href={myResume} className="download-logo" download>
-                <BsFillCloudDownloadFill />
+                < BsCloudDownload size='75px'/>
               </a>
             </div>
           </div>
