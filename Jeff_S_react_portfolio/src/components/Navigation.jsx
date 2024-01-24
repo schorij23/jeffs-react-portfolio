@@ -1,21 +1,27 @@
 import { Link, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
+import './header.css';
 function Navigation() {
     const currentPage = useLocation().pathname;
 
+    const linkStyle = {
+        fontSize: '24px',
+        color: '#007bff'
+    };
     return (
         <ul className='nav nav-tabs'>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
                 <Link to="/"
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                style={linkStyle}
                 >
                 Home
                 </Link>
-            </li> */}
+            </li>
             <li className='nav-item'>
                 <Link to='/About'
                 className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+                style={linkStyle}
                 >
                 About
                 </Link>
@@ -23,6 +29,7 @@ function Navigation() {
             <li className='nav-item'>
                 <Link to='/Contact'
                 className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                style={linkStyle}
                 >
                 Contact
                 </Link>
@@ -30,6 +37,7 @@ function Navigation() {
             <li className='nav-item'>
                 <Link to='/Portfolio'
                 className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+                style={linkStyle}
                 >
                 Portfolio
                 </Link>
@@ -37,6 +45,7 @@ function Navigation() {
             <li className='nav-item'>
                 <Link to='/Resume'
                 className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                style={linkStyle}
                 >
                 Resume
                 </Link>
