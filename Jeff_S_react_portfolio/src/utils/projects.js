@@ -1,7 +1,7 @@
 import LandingPage from '../../images/LandingPage.png'
-import NationalParksandWeather from '../../images/NationalParksandWeather.png'
+import NationalParksWeather from '../../images/NationalParksWeather.png'
 import Weather from '../../images/Weather.png'
-import TechBlog from '../../images/TechBlog.png'
+import TechBlogMVC from '../../images/TechBlogMVC.png'
 import JavaScriptQuiz from '../../images/JavaScriptQuiz.png'
 import DayScheduler from '../../images/DayScheduler.png'
 
@@ -16,7 +16,7 @@ const projects = [
     {
         title: 'National Parks and Weather',
         description: 'placeholder',
-        image: NationalParksandWeather,
+        image: NationalParksWeather,
         url: 'https://schorij23.github.io/Weather-and-Parks-project/',
         github: 'https://github.com/schorij23/Weather-and-Parks-project'
     },
@@ -30,7 +30,7 @@ const projects = [
     {
         title: 'MVC TechBlog',
         description: 'placeholder',
-        image: TechBlog,
+        image: TechBlogMVC,
         url: 'https://jeffs-tech-blog-mvc-1d4c4a7708a9.herokuapp.com/',
         github: 'https://github.com/schorij23/tech-blog-mvc'
     },

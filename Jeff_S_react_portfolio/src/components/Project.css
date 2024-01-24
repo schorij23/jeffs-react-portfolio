@@ -4,3 +4,15 @@
 .buttons-margin {
     margin-top: 20%;
 } */
+.card-img-top {
+    height: 300px; /* Fixed height for all images */
+    object-fit: cover; /* This will cover the area of the card, cropping the image if necessary */
+    width: 100%; /* Ensures the image covers the full width of the card */
+}
+
+.card-image {
+    height: 200px; /* Or any other height you prefer */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
