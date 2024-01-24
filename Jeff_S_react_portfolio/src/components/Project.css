@@ -16,3 +16,20 @@
     background-position: center;
     width: 100%;
 }
+
+.card-body {
+    padding: 5px;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-button {
+    padding: 5px 10px;
+    margin: 5px;
+}

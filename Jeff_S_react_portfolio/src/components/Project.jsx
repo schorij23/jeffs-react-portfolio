@@ -12,14 +12,12 @@ export default function ProjectCard({ title, image, github, url }) {
             <div className='card-image' style ={{ backgroundImage: `url(${image})`}}></div>
           <Card.Body>
             <Card.Title>{title}</Card.Title>
-            <Card.Text>
-              {/* Some quick example text to build on the card title and make up the
-              bulk of the cards content. */}
+            <Card.Text className='card-text'>
             </Card.Text>
             {/* <div style={{ paddingBottom: '20%' }}></div> */}
-            <Button variant="primary" size="sm" 
+            <Button className='card-button' variant="primary" size="sm" 
             onClick={() => handleButtonClick(github)} style={{ marginRight: '10px'}}>Github</Button>
-            <Button variant="primary" size="sm" 
+            <Button className='card-button' variant="primary" size="sm" 
             onClick={() => handleButtonClick(url)} style={{ marginLeft: '10px'}}>Deployed</Button>
           </Card.Body>
         </Card>
