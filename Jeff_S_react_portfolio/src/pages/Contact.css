@@ -1,6 +1,6 @@
 .container {
     /* padding-top: 10%; */
-    color: white;
+    color: #09235D;
 }
 .form {
     flex-direction: column;
@@ -9,12 +9,12 @@
 }
 
 .input-name {
-    background-color: blue;
-    color: white
+    background-color: white;
+    color: #09235D;
 }
 
 .input-name::placeholder {
-    color: white
+    color: Black;
 }
 
 .contact-btn{

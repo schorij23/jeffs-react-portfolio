@@ -6,7 +6,7 @@ function Navigation() {
 
     const linkStyle = {
         fontSize: '24px',
-        color: '#007bff'
+        color: '#09235D'
     };
     return (
         <ul className='nav nav-tabs'>

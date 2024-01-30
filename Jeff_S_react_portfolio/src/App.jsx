@@ -13,10 +13,9 @@ function App() {
   return (
     <>
     <Header />
-    {/* <Navigation /> */}
     <main className='mx-3'>
     <Outlet />
-    <h1>body</h1>
+    {/* <h1>body</h1> */}
     </main>
     <Footer />
     </>

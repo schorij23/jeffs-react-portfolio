@@ -1,4 +1,27 @@
-#about {
-color: #276FBF;
-
+.about-page {
+    color:  white;
+    font-size:xx-large;
 }
+
+.about-me {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    aspect-ratio: 1/1;
+}
+
+.about-body {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-card {
+    height: 400px;
+}
+
+.about-card-text {
+    overflow-y: auto; /* Enable vertical scrolling for the card content */
+  }

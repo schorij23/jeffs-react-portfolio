@@ -11,6 +11,25 @@
 }
 
 .navbar-brand {
-  color: blue;
+  color: #09235D;
+}
+
+.navbar-nav li.nav-item a.active {
+  border: 2px solid white; /* You can change the color to your desired shade */
+  border-radius: 5px; /* Optional: To round the corners */
+  color: white;
+  background-color: blue;
+}
+
+/* Add a darker border to the button */
+.navbar-toggler {
+  border: 2px solid #333; /* You can change the color to your desired shade */
+  border-radius: 5px; /* Optional: To round the corners */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  background-color: #09235D; /* Change the background color to highlight */
+  color: #fff !important; /* Change the text color for better visibility, use !important to override Bootstrap styles */
+  border-radius: 5px; /* Optional: To round the corners */
 }
 
