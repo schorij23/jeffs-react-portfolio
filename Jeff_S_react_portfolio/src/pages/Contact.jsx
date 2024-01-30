@@ -8,7 +8,7 @@ function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [errorMessage, setErrorMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState("");
 
 const handleInputChange = (e) => {
     const { target } = e;
@@ -36,10 +36,25 @@ const handleFormSubmit = (e) => {
     setEmail('');
 }
 
-// const handleNameBlur = (e) => {
-//   // You can perform actions when the "name" input field loses focus here
-//   console.log('Name input field lost focus');
-// }
+const handleNameBlur = (e) => {
+  const user = e.target.name
+  if (user === 'email'){
+    const validEmail = validateEmail(e.target.value)
+    if(validEmail){
+      setErrorMessage("")
+    } else{
+      setErrorMessage("Invalid Email entered")
+    }
+  }else if(user === "name"){
+    const nameLength = e.target.value.length
+    console.log('Name input field lost focus');
+    if(nameLength < 1){
+      setErrorMessage("Please enter valid name")
+      console.log(errorMessage)
+    }
+  }
+  // You can perform actions when the "name" input field loses focus here
+}
 
     return (
         // <h1>Contact Page</h1>
@@ -51,7 +66,7 @@ const handleFormSubmit = (e) => {
             value={name}
             name="name"
             onChange={handleInputChange}
-            // onBlur={handleNameBlur}
+            onBlur={handleNameBlur}
             type="text"
             placeholder="name"
           />
