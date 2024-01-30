@@ -4,11 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import avatar from '../../images/63457.png';
 
 import 'bootstrap/dist/js/bootstrap.min.js';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import Image from 'react-bootstrap/Image';
-// import Card from 'react-bootstrap/Card';
 export default function AboutPage() {
     return (
     <div className='container about'>
@@ -21,7 +16,7 @@ export default function AboutPage() {
 
             <div className="col justify-content-md-center container-sm about-content">
                 <p className='about-body'>
-                    Hi, this is my portfolio My name is Jeff Schori I have a degrees in Architectural Enginering and Construction
+                    Hi, this is my portfolio My name is Jeff Schori I have a degrees in Architectural Enginering and Construction Management
                     <br/> I am learning web development. Some more text comming soon
                 </p>
             </div>

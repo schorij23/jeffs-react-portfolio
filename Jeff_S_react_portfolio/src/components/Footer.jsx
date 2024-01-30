@@ -4,17 +4,17 @@ import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'; // Import the
 
 function Footer() {
     return (
-        <footer className='fixed-bottom footer'>
-            <div className="content links">
+        <footer className='footer'>
+            <div className="content links" style={{ color: '#FCF7F8'}}>
                 <div className= 'footer-icon'>
                     <a href='https:/github.com/schorij23' target='_blank' rel="noopener noreferrer" >
-                        <FaGithub style={{color: "white", margin: "25 25px" }} size="50px" /> 
+                        <FaGithub style={{margin: "25 25px" }} size="50px" /> 
                     </a>
                     <a href='mailto:schorij23@gmail.com' target='_blank' rel="noopener noreferrer" >
-                    <FaEnvelope style={{color: "white", margin: "25 25px" }}  size="50px" />    
+                    <FaEnvelope style={{margin: "25 25px" }}  size="50px" />    
                     </a>
                     <a href='https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit' target='_blank' rel="noopener noreferrer">
-                        <FaLinkedin style={{color: "white", margin: "25 25px" }}  size="50px" /> 
+                        <FaLinkedin style={{margin: "25 25px" }}  size="50px" /> 
                     </a>
             
                 </div>

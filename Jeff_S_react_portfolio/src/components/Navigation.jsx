@@ -27,14 +27,6 @@ function Navigation() {
                 </Link>
             </li>
             <li className='nav-item'>
-                <Link to='/Contact'
-                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-                style={linkStyle}
-                >
-                Contact
-                </Link>
-            </li>
-            <li className='nav-item'>
                 <Link to='/Portfolio'
                 className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
                 style={linkStyle}
@@ -48,6 +40,14 @@ function Navigation() {
                 style={linkStyle}
                 >
                 Resume
+                </Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/Contact'
+                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                style={linkStyle}
+                >
+                Contact
                 </Link>
             </li>
         </ul>

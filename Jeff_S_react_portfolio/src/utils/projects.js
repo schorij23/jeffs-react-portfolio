@@ -45,7 +45,7 @@ const projects = [
         title: 'Javascript Quiz',
         description: 'placeholder',
         image: JavaScriptQuiz,
-        url: 'https://github.com/schorij23/javascript-quiz',
+        url: 'https://schorij23.github.io/javascript-quiz/',
         github: 'https://github.com/schorij23/javascript-quiz'
     },
 ];

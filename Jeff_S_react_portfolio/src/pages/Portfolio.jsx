@@ -8,7 +8,8 @@ import '../components/Project.css'
 
 function Portfolio() {
     return (
-        <Container style={{ marginTop: '20px'}}>
+        <div className='sticky-footer-container'>
+        <Container style={{ marginTop: '40px', paddingBottom: '60px'}}>
             <Row className='g-3'>
                 {projects.map((project, index) => (
                 <Col md={4} key={index}>
@@ -24,6 +25,7 @@ function Portfolio() {
                 {/* Add more ProjectCard components as needed */}
             </Row>
         </Container>
+        </div>
     );
 }
 
