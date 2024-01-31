@@ -9,13 +9,13 @@
     color: #09235D;
   }
   .nav-link.active {
-    background-color: #09235D; /* Change the background color to highlight */
-    color: #fff; /* Change the text color for better visibility */
-    border-radius: 5px; /* Optional: To round the corners */
+    background-color: #09235D; 
+    color: #F5F5F5;
+    border-radius: 5px;
   }
   
   /* Add hover effect for all links */
   .nav-link:hover {
-    background-color: #f8f9fa; /* Change the background color on hover */
-    color: #09235D; /* Change the text color on hover */
+    background-color: #F5F5F5;
+    color: #09235D;
   }

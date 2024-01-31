@@ -1,5 +1,5 @@
 .about-page {
-    color:  white;
+    color:  #F5F5F5;
     font-size:xx-large;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .about-body {
-    color: white;
+    color: #F5F5F5;
     font-size: 18px;
     text-align: center;
     padding-top: 2%;
@@ -26,5 +26,5 @@
 }
 
 .about-card-text {
-    overflow-y: auto; /* Enable vertical scrolling for the card content */
+    overflow-y: auto;
   }

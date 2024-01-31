@@ -11,25 +11,25 @@
 }
 
 .navbar-brand {
-  color: #09235D;
+  color: #090623;
 }
 
 .navbar-nav li.nav-item a.active {
-  border: 2px solid white; /* You can change the color to your desired shade */
-  border-radius: 5px; /* Optional: To round the corners */
-  color: white;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  color: #F5F5F5;
   background-color: blue;
 }
 
-/* Add a darker border to the button */
+
 .navbar-toggler {
-  border: 2px solid #333; /* You can change the color to your desired shade */
-  border-radius: 5px; /* Optional: To round the corners */
+  border: 2px solid #333; 
+  border-radius: 5px; 
 }
 
 .navbar-nav .nav-item .nav-link.active {
-  background-color: #09235D; /* Change the background color to highlight */
-  color: #fff !important; /* Change the text color for better visibility, use !important to override Bootstrap styles */
-  border-radius: 5px; /* Optional: To round the corners */
+  background-color: #090623; 
+  color: #F5F5F5 !important; 
+  border-radius: 5px; 
 }
 

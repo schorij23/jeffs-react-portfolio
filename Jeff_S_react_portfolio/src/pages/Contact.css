@@ -1,6 +1,6 @@
 .container {
     /* padding-top: 10%; */
-    color: #09235D;
+    color: #090623;
 }
 .form {
     flex-direction: column;
@@ -10,7 +10,7 @@
 
 .input-name {
     background-color: white;
-    color: #09235D;
+    color: #090623;
     margin-top: 2%;
 }
 
@@ -23,5 +23,5 @@
     box-sizing: border-box;
     text-align: center;
     background-color: #FCF7F8;
-    color: #09235D;
+    color: #090623;
 }
