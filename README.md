@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This project uses express.js as a text editor
+This project was created to show potential employers that i can use react
 
 ## Table of Contentss
 
