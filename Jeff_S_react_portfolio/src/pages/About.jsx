@@ -17,7 +17,7 @@ export default function AboutPage() {
             <div className="col justify-content-md-center container-sm about-content">
                 <p className='about-body'>
                     Hi, this is my portfolio My name is Jeff Schori I have a degrees in Architectural Enginering and Construction Management
-                    <br/> I am learning web development. Some more text comming soon
+                    I am learning web development. Some more text comming soon
                 </p>
             </div>
         </div>
