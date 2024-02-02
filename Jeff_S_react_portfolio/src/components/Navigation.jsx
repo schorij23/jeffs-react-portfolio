@@ -10,14 +10,6 @@ function Navigation() {
     };
     return (
         <ul className='nav nav-tabs'>
-            {/* <li className='nav-item'>
-                <Link to="/"
-                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                style={linkStyle}
-                >
-                Home
-                </Link>
-            </li> */}
             <li className='nav-item'>
                 <Link to='/About'
                 className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
