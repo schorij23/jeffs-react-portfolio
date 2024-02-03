@@ -1,4 +1,4 @@
-import LandingPage from '../../images/LandingPage.png'
+import MERN from '../../images/MERN_Books.png'
 import NationalParksWeather from '../../images/NationalParksWeather.png'
 import Weather from '../../images/Weather.png'
 import TechBlogMVC from '../../images/TechBlogMVC.png'
@@ -7,11 +7,11 @@ import DayScheduler from '../../images/DayScheduler.png'
 
 const projects = [
     {
-        title: 'Landing Page',
+        title: 'MERN Books',
         description: 'placeholder',
-        image: LandingPage,
-        url: 'https://schorij23.github.io/week-1-challenge/',
-        github: 'https://github.com/schorij23/week-1-challenge'
+        image: MERN,
+        url: 'https://jeff-book-74977743fbf1.herokuapp.com/',
+        github: 'https://github.com/schorij23/book-search-MERN/'
     },
     {
         title: 'National Parks and Weather',
