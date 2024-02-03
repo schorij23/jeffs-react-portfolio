@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { validateEmail } from '../utils/helper';
 import './Contact.css';
 
@@ -53,6 +53,7 @@ const handleNameBlur = (e) => {
       console.log(errorMessage)
     }
   }
+  alert(`The ${user} field is required`)
   // You can perform actions when the "name" input field loses focus here
 }
 
@@ -74,6 +75,7 @@ const handleNameBlur = (e) => {
             value={email}
             name="email"
             onChange={handleInputChange}
+            onBlur={handleNameBlur}
             type="email"
             placeholder="email"
           />
@@ -83,6 +85,7 @@ const handleNameBlur = (e) => {
             name="message" 
             placeholder="message"
             onChange={handleInputChange}
+            onBlur={handleNameBlur}
             type="text"
             style={{ height: '30vh' }}
             />
