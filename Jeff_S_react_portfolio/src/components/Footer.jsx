@@ -1,5 +1,4 @@
 import './footer.css';
-import React from 'react';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'; // Import the GitHub icon
 
 function Footer() {
@@ -8,7 +7,7 @@ function Footer() {
             <div className="content links" style={{ color: '#FCF7F8'}}>
                 <div className= 'footer-icon'>
                     <a href='https:/github.com/schorij23' target='_blank' rel="noopener noreferrer" >
-                        <FaGithub style={{margin: "25 25px" }} size="50px" /> 
+                        <FaGithub style={{margin: "35 25px" }} size="50px" /> 
                     </a>
                     <a href='mailto:schorij23@gmail.com' target='_blank' rel="noopener noreferrer" >
                     <FaEnvelope style={{margin: "25 25px" }}  size="50px" />    
