@@ -2,12 +2,11 @@ import './About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import avatar from '../images/63457.png';
 
-import 'bootstrap/dist/js/bootstrap.min.js';
+// import 'bootstrap/dist/js/bootstrap.min.js';
 export default function AboutPage() {
     return (
     <div className='container about'>
             <div className="row justify-content-md-center about_me">
-            {/* <div className="justify-content-center align-items-center about_me"> */}
                 <div className='about-me'>
                     <img src={avatar} className='img-fluid' alt='JeffS-avatar' />
                 </div>

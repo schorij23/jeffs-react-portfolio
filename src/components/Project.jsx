@@ -14,7 +14,6 @@ export default function ProjectCard({ title, image, github, url }) {
             <Card.Title>{title}</Card.Title>
             <Card.Text className='card-text'>
             </Card.Text>
-            {/* <div style={{ paddingBottom: '20%' }}></div> */}
             <Button className='card-button' variant="primary" size="sm" 
             onClick={() => handleButtonClick(github)} style={{ marginRight: '10px'}}>Github</Button>
             <Button className='card-button' variant="primary" size="sm" 

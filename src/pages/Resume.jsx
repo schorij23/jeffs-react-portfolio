@@ -1,4 +1,3 @@
-// import React from "react";
 import myResume from "../../src/documents/Codingresume.pdf";
 import { BsCloudDownload } from "react-icons/bs";
 import './Resume.css';

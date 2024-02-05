@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Header.css';
 function Navigation() {
     const currentPage = useLocation().pathname;

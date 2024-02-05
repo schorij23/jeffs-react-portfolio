@@ -53,13 +53,10 @@ const handleNameBlur = (e) => {
       console.log(errorMessage)
     }
   }
-  // You can perform actions when the "name" input field loses focus here
 }
 
     return (
-        // <h1>Contact Page</h1>
         <div className="container">
-        {/* <h1>{name}</h1>  */}
 
         <form className="form" onSubmit={handleFormSubmit}>
           <input className='input-name mb-3'

@@ -1,5 +1,5 @@
 .container {
-    /* padding-top: 10%; */
+    padding-top: 2%;
     color: #090623;
 }
 .form {
@@ -9,13 +9,11 @@
 }
 
 .input-name {
-    /* background-color: white; */
-    /* color: #090623; */
     margin-top: 2%;
 }
 
 .input-name::placeholder {
-    color: Black;
+    color: #737582;
 }
 
 .contact-btn{
@@ -24,4 +22,5 @@
     text-align: center;
     background-color: #FCF7F8;
     color: #090623;
+    
 }
