@@ -43,6 +43,5 @@ For more details, see [License Details](https://choosealicense.com/licenses/mit/
 
 ## Screenshots
 Netlify Deployment Link [Jeff S React Portfolio](https://jeffs-react-portfolio.netlify.app/)
-![Heroku Opening Screen](./assets/J.A.T.E.png)
 ![Jeff Portfolio](./src/images/JEFFPORT.png)
 ![Jeff About](./src/images/JEFFABOUT.png)
