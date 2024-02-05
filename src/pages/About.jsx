@@ -2,7 +2,6 @@ import './About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import avatar from '../images/63457.png';
 
-// import 'bootstrap/dist/js/bootstrap.min.js';
 export default function AboutPage() {
     return (
     <div className='container about'>
