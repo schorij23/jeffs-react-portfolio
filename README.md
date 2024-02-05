@@ -4,9 +4,9 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This project was created to show potential employers that i can use react
+This project was created to show potential employers a short list of Projects, an email, resume and linkedin and github account
 
-## Table of Contentss
+## Table of Contents
 
 
 * [Installations](#installations)
@@ -42,7 +42,7 @@ For more details, see [License Details](https://choosealicense.com/licenses/mit/
   - Email address schorij23@gmail.com
 
 ## Screenshots
-Render Deployment link [Jeff S Text Editor](https://jeffs-text-editor-pwa.onrender.com/)
-
+Netlify Deployment Link [Jeff S React Portfolio](https://jeffs-react-portfolio.netlify.app/)
 ![Heroku Opening Screen](./assets/J.A.T.E.png)
-
+![Jeff Portfolio](./src/images/JEFFPORT.png)
+![Jeff About](./src/images/JEFFABOUT.png)
