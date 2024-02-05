@@ -4,12 +4,12 @@ import './Contact.css';
 
 
 function Contact() {
-
+  // State variables to manage user inputs and error messages
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState("");
-
+// Handle input changes and update corresponding state variables
 const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -23,19 +23,19 @@ const handleInputChange = (e) => {
         setMessage(inputValue);
     }
 };
-
+// Handle form submission
 const handleFormSubmit = (e) => {
     e.preventDefault();
-
+    // Validate email and input fields
     if (!validateEmail(email) || !name || !email) {
         setErrorMessage('Email or name is invalid');
         return;
     }
-
+    // Clear input fields on successful submission for project assignment only
     setName('');
     setEmail('');
 }
-
+// Handle input blur events for validation and error messages
 const handleNameBlur = (e) => {
   const user = e.target.name
   if (user === 'email'){
@@ -59,6 +59,7 @@ const handleNameBlur = (e) => {
         <div className="container">
 
         <form className="form" onSubmit={handleFormSubmit}>
+          {/* Input fields for name, email, and message */}
           <input className='input-name mb-3'
             value={name}
             name="name"
@@ -75,7 +76,6 @@ const handleNameBlur = (e) => {
             type="email"
             placeholder="email"
           />
-          {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
           <textarea className='input-name mb-5'
             value={message}
             name="message" 
@@ -85,13 +85,13 @@ const handleNameBlur = (e) => {
             type="text"
             style={{ height: '30vh' }}
             />
-          {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
+          {/* Submit button */}
           <button className="contact-btn" type="submit">
             Submit
           </button>
         </form>
         
-       
+       {/* Display error message if there is one */}
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>

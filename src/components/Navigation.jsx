@@ -1,13 +1,15 @@
 import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 function Navigation() {
+    // Get the current page's path using the useLocation hook
     const currentPage = useLocation().pathname;
-
+    // Define the styling for the navigation links
     const linkStyle = {
         fontSize: '24px',
         color: '#09235D'
     };
     return (
+        // Unordered list for navigation links
         <ul className='nav nav-tabs'>
             <li className='nav-item'>
                 <Link to='/About'

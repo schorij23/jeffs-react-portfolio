@@ -8,7 +8,7 @@ import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
-
+// Create a BrowserRouter and define your application's routes
 const router = createBrowserRouter([
   {
     path: '/',
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
     ],
   },
 ]);
-
+// Render the router using React.createRoot
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );

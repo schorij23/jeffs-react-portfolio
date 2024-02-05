@@ -1,10 +1,11 @@
+// Import project images
 import MERN from '../images/MERN_Books.png'
 import NationalParksWeather from '../images/NationalParksWeather.png'
 import Weather from '../images/Weather.png'
 import TechBlogMVC from '../images/TechBlogMVC.png'
 import JavaScriptQuiz from '../images/JavaScriptQuiz.png'
 import DayScheduler from '../images/DayScheduler.png'
-
+// Array of project objects with title, description, image, URL, and GitHub link
 const projects = [
     {
         title: 'MERN Books',
