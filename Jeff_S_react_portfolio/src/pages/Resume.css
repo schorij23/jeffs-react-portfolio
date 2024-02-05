@@ -1,21 +1,22 @@
 .download-resume {
-    padding-top: 2%
+    padding-top: 3%
 }
 
 .resume-front{
     text-align: justify;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .resume-back{
     font-size: 24px;
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .resume-full {
     font-size: 24px;
     text-align: justify;
+    margin-bottom: 30px;
     padding-bottom: 10%;
 }
