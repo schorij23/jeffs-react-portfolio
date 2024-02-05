@@ -1,9 +1,9 @@
-import MERN from '../../images/MERN_Books.png'
-import NationalParksWeather from '../../images/NationalParksWeather.png'
-import Weather from '../../images/Weather.png'
-import TechBlogMVC from '../../images/TechBlogMVC.png'
-import JavaScriptQuiz from '../../images/JavaScriptQuiz.png'
-import DayScheduler from '../../images/DayScheduler.png'
+import MERN from '../images/MERN_Books.png'
+import NationalParksWeather from '../images/NationalParksWeather.png'
+import Weather from '../images/Weather.png'
+import TechBlogMVC from '../images/TechBlogMVC.png'
+import JavaScriptQuiz from '../images/JavaScriptQuiz.png'
+import DayScheduler from '../images/DayScheduler.png'
 
 const projects = [
     {
