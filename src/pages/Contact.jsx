@@ -53,7 +53,6 @@ const handleNameBlur = (e) => {
       console.log(errorMessage)
     }
   }
-  alert(`The ${user} field is required`)
   // You can perform actions when the "name" input field loses focus here
 }
 
