@@ -1,4 +1,3 @@
-import './footer.css';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'; // Import the GitHub icon
 
 function Footer() {
