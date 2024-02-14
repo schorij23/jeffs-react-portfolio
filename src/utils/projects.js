@@ -3,8 +3,8 @@ import MERN from '../images/MERN_Books.png'
 import NationalParksWeather from '../images/NationalParksWeather.png'
 import Weather from '../images/Weather.png'
 import TechBlogMVC from '../images/TechBlogMVC.png'
-import JavaScriptQuiz from '../images/JavaScriptQuiz.png'
 import DayScheduler from '../images/DayScheduler.png'
+import Ecommerce from '../images/EcommerceM.png'
 // Array of project objects with title, description, image, URL, and GitHub link
 const projects = [
     {
@@ -43,11 +43,11 @@ const projects = [
         github: 'https://github.com/schorij23/day-scheduler'
     },
     {
-        title: 'Javascript Quiz',
+        title: 'Ecommerce Project',
         description: 'placeholder',
-        image: JavaScriptQuiz,
-        url: 'https://schorij23.github.io/javascript-quiz/',
-        github: 'https://github.com/schorij23/javascript-quiz'
+        image: Ecommerce,
+        url: 'https://mern-shopping-2f0ec0281883.herokuapp.com/',
+        github: 'https://github.com/schorij23/web-store'
     },
 ];
 
