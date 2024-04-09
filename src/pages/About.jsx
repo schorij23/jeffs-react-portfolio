@@ -13,7 +13,7 @@ export default function AboutPage() {
 
             <div className="col justify-content-md-center container-sm about-content">
                 <p className='about-body'>
-                As a Full-Stack web developer from Pennsylvania, I specialize in front-end development, focusing on HTML, JavaScript, and design aesthetics. I take pride in a weather application that showcases national park weather, demonstrating my proficiency and dedication using multiple apis. Across various states, I’ve delivered innovative solutions, pushing the boundaries of web development. My passion lies in creating immersive digital experiences.
+                As a Full-Stack web developer from Pennsylvania, I specialize in front-end development, focusing on HTML, JavaScript, and design aesthetics. I take pride in a weather application that showcases national park weather, demonstrating my proficiency and dedication using multiple APIs. Across various states, I’ve delivered innovative solutions, pushing the boundaries of web development. My passion lies in creating immersive digital experiences.
                 </p>
             </div>
         </div>
