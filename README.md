@@ -1,5 +1,5 @@
 
-# React Portfolio Jeff S Unfinished
+# React Full-Stack Portfolio Jeff Schori
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
