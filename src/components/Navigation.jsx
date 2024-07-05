@@ -35,14 +35,6 @@ function Navigation() {
                 Resume
                 </Link>
             </li>
-            <li className='nav-item'>
-                <Link to='/Contact'
-                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-                style={linkStyle}
-                >
-                Contact
-                </Link>
-            </li>
         </ul>
     );
 }

@@ -5,7 +5,6 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import App from './App.jsx'
 import './App.css'
 import About from './pages/About.jsx';
-import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
 // Create a BrowserRouter and define your application's routes
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
       {
         path: '/About',
         element: <About />,
-      },
-      {
-        path: '/Contact',
-        element: <Contact/>,
       },
       {
         path: '/Portfolio',
