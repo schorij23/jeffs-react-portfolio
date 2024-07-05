@@ -13,7 +13,7 @@ export default function AboutPage() {
 
             <div className="col justify-content-md-center container-sm about-content">
                 <p className='about-body'>
-                I am a Full-Stack web developer specializing in both front-end and back-end development. I excel in HTML, JavaScript, and design aesthetics. One of my key projects is a weather app for national parks, showcasing my skill with multiple APIs. I've delivered innovative web solutions across various states, always pushing the boundaries of web development.
+                I am a Full-Stack web developer, specializing in both front-end and back-end development. I excel in HTML, JavaScript, and design aesthetics. One of my key projects is a weather app for national parks, showcasing my skill with multiple APIs. I have delivered innovative web solutions across various states, always pushing the boundaries of web development.
                 </p>
             </div>
         </div>
