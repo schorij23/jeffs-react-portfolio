@@ -15,7 +15,7 @@ function Resume() {
        {/* Skills section */}
       <div className="col justify-content-md-center container-sm about-content" style={{ marginTop: '4%' , color: '#F5F5F5'}}>
             <p className='resume-front'>
-              Front End Skills include: HTML, Javasript, React, CSS, Bootstrap, React Bootstrap, APIs
+              Front End Skills include: HTML, JavaScript, React, CSS, Bootstrap, React Bootstrap, APIs
             </p>
             <p className='resume-back'> 
               Back End Skills include: SQL, Sequilize ORM, Model View Controler MVC and OOP
