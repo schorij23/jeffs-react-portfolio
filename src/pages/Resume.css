@@ -1,22 +1,31 @@
-.download-resume {
-    padding-top: 3%
-}
-
-.resume-front{
-    text-align: center;
+/* Aligning the section to the left side */
+.about-content {
+    text-align: left; /* This aligns all text inside to the left */
+    margin-left: 10%; /* Adds space on the left side to keep things from touching the edge */
+  }
+  
+  /* Common styles for all paragraphs */
+  .resume-front, .resume-back, .resume-full {
     font-size: 24px;
     margin-bottom: 30px;
-}
-
-.resume-back{
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.resume-full {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 30px;
+  }
+  
+  .resume-front {
+    text-align: left; /* Ensures the front-end skills text is left-aligned */
+  }
+  
+  .resume-back {
+    text-align: left; /* Ensures the back-end skills text is left-aligned */
+  }
+  
+  .resume-full {
+    text-align: left; /* Ensures the full-stack skills text is left-aligned */
     padding-bottom: 10%;
-}
+  }
+  
+  /* Optional: Styling for consistency */
+  .resume-front, .resume-back, .resume-full {
+    width: 100%; /* Ensures that the text spans the full width available */
+    padding-left: 10%; /* Adds padding to the left to avoid text touching the edge */
+  }
+  
