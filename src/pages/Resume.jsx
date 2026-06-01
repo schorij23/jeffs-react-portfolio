@@ -1,4 +1,4 @@
-import myResume from "../../src/documents/JSCodeResume.pdf";
+import myResume from "../../src/documents/MainResume.pdf";
 import { BsCloudDownload } from "react-icons/bs";
 import './Resume.css';
 function Resume() {
